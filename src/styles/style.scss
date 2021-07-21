@@ -1,0 +1,115 @@
+html {
+  background: linear-gradient(
+      to left bottom,
+      rgb(190, 179, 255) 0%,
+      rgb(179, 255, 250) 100%
+    )
+    no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  h1 {
+    color: #00a78e;
+    text-shadow: 0.6px 0.6px black;
+  }
+}
+
+.main {
+  flex: 1 0 auto;
+  padding: 15px;
+  padding-bottom: 100px;
+  .projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
+    grid-gap: 20px;
+    justify-content: center;
+    .projects__item {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      background-color: rgb(242, 255, 220);
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      .btn-wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .show-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: fit-content;
+          height: fit-content;
+          text-decoration: none;
+          border: 1px solid #334858;
+          border-radius: 10px;
+          padding: 7px;
+          background-color: #00a1f1;
+          color: #fefefe;
+          &:hover {
+            background-color: #1d92cc;
+            transition-duration: 0.4s;
+          }
+        }
+      }
+      .github-link {
+        color: #16975d;
+        &:hover {
+          opacity: 0.6;
+          transition-duration: 0.4s;
+        }
+      }
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #52565e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  color: #fefefe;
+  padding: 15px;
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contacts__content {
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: #fefefe;
+    }
+    h2 {
+      margin: 0;
+    }
+  }
+}

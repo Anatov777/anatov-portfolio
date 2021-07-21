@@ -1,28 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <header class="header">
+      <h1>Мои проекты</h1>
+    </header>
+    <main class="main">
+      <portfolio-list msg="Welcome to Your Vue.js App" />
+    </main>
+    <footer class="footer">
+      <div class="contacts">
+        <h2>Контакты</h2>
+        <div class="contacts__content">
+          <p>anatovtimur@gmail.com</p>
+          <a href="tel:+79817244835">+79817244835</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import PortfolioList from "@/components/PortfolioList.vue";
+import "@/styles/style.scss";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-  },
+    PortfolioList
+  }
 };
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
