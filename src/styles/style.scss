@@ -1,9 +1,5 @@
 html {
-  background: linear-gradient(
-      to left bottom,
-      rgb(190, 179, 255) 0%,
-      rgb(179, 255, 250) 100%
-    )
+  background: linear-gradient(to left bottom, rgb(190, 179, 255) 0%, rgb(179, 255, 250) 100%)
     no-repeat;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   min-height: 100%;
@@ -50,17 +46,13 @@ body {
       border-radius: 5px;
       display: flex;
       flex-direction: column;
-      .btn-wrapper {
+      .links-wrapper {
         height: 100%;
         display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
         .show-btn {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: fit-content;
-          height: fit-content;
           text-decoration: none;
           border: 1px solid #334858;
           border-radius: 10px;
@@ -72,12 +64,12 @@ body {
             transition-duration: 0.4s;
           }
         }
-      }
-      .github-link {
-        color: #16975d;
-        &:hover {
-          opacity: 0.6;
-          transition-duration: 0.4s;
+        .github-link {
+          color: #16975d;
+          &:hover {
+            opacity: 0.6;
+            transition-duration: 0.4s;
+          }
         }
       }
       h2 {
@@ -96,7 +88,7 @@ body {
   align-items: center;
   min-height: 100px;
   color: #fefefe;
-  padding: 15px;
+  padding: 15px 0;
   .contacts {
     display: flex;
     flex-direction: column;
