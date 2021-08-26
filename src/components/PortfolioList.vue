@@ -30,7 +30,7 @@ export default {
         title: "Корпоративный портал",
         description: "Примеры задач, выполненных для корпоративного портала.",
         technologies: "Технологии: Vue.js, Vuex, Vuelidate, Bootstrap",
-        github: "https://github.com/Anatov777/corporate-portal",
+        site: "https://github.com/Anatov777/corporate-portal",
       },
       {
         title: "Кольцевая диаграмма",

@@ -4,7 +4,7 @@
     <p v-html="projectData.description"></p>
     <p>{{ projectData.technologies }}</p>
     <div class="links-wrapper">
-      <p>
+      <p v-if="projectData.github">
         <a class="github-link" :href="projectData.github" target="_blank"
           >GitHub</a
         >
