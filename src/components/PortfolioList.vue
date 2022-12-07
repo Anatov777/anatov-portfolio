@@ -19,6 +19,14 @@ export default {
   created() {
     this.PROJECTS = [
       {
+        title: 'Авторизация',
+        description:
+          "Авторизация на Vue с использованием Supabase.",
+        technologies: "Технологии: Vue.js 3, Composition API, Typescript, Tailwind CSS, Supabase",
+        github: "https://github.com/Anatov777/vue3-example",
+        site: "https://anatov777.github.io/vue3-example/",
+      },
+      {
         title: 'Учетная система "Консультации"',
         description:
           "Предназначена для автоматизации работы с консультациями пациентов.",
@@ -41,13 +49,6 @@ export default {
         site: "https://anatov777.github.io/doughnut-chart/",
       },
       {
-        title: "Сайт-портфолио",
-        description: "Отображение списка работ макетчика-моделиста.",
-        technologies: "Технологии: Django, React",
-        github: "https://github.com/Anatov777/diorama-layouts",
-        site: "https://diorama-heroku-app.herokuapp.com/",
-      },
-      {
         title: "Гостиница",
         description: "Верстка страниц сайта гостиницы.",
         technologies: "Технологии: HTML, CSS, JS/jQuery",
@@ -60,21 +61,6 @@ export default {
         technologies: "Технологии: Pug, SCSS, JS/jQuery, Gulp",
         github: "https://github.com/Anatov777/university",
         site: "https://anatov777.github.io/university/",
-      },
-      {
-        title: "Игра Simon",
-        description:
-          "Задача игры — запомнить продемонстрированную последовательность вспышек и звуков и воспроизвести её.",
-        technologies: "Технологии: Vue.js",
-        github: "https://github.com/Anatov777/simon-game",
-        site: "https://anatov777.github.io/simon-game/",
-      },
-      {
-        title: "Таймеры",
-        description: "Таймеры обратного отсчета.",
-        technologies: "Технологии: Vue.js",
-        github: "https://github.com/Anatov777/vue-timers",
-        site: "https://anatov777.github.io/vue-timers/",
       },
     ];
   },
