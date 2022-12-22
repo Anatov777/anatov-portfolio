@@ -35,6 +35,12 @@ export default {
         site: "https://anatov777.github.io/consulting/#/patients",
       },
       {
+        title: "Маркетплейс аренды помещений",
+        description: "Обзор проекта маркетплейса почасовой аренды помещений, в котором я участвовал в роли Frontend-разработчика.",
+        technologies: "Технологии: Vue.js, Nuxt, TypeScript",
+        site: "https://github.com/Anatov777/room-marketplace",
+      },
+      {
         title: "Корпоративный портал",
         description: "Примеры задач, выполненных для корпоративного портала.",
         technologies: "Технологии: Vue.js, Vuex, Vuelidate, Bootstrap",
